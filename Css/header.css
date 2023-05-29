@@ -6,17 +6,20 @@
 
 header{
     background-color: #B40A0A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 30px 30px; 
 }
 .cabecalho{
     position: relative;
     display: flex;
-    margin-left: 50px;
+    margin: 20px 0 0 50px;
     align-items: center;
 }
 
 .logo {
-    width: 77px;
-    height: 77px;
+    width: 50px;
+    height: 50px;
     margin: 5px 0 5px 105px
 }
 
@@ -27,7 +30,7 @@ header{
     padding: 2px;
     padding-inline: 25px;
     margin: 0 0 0 50px;
-    font-size: 10px;
+    
 }
 
 .login:hover{

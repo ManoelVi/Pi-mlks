@@ -1,0 +1,15 @@
+
+footer{
+    background-color: #3E3E3E;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+
+ul h3{
+    margin-left: 50px;
+}

@@ -1,42 +1,36 @@
 
 main{
     background-color: #DADADA;
-    display: flex;
 }
-
-.modelo{
-    width: 570px;
-    height: 606px;
-    margin: 30px 0 50px 100px;
-}
-
 .legenda{
-    margin: 120px 0 0 150px;
+    width: 550px;
     font-family: 'Lato', sans-serif;
-}
-.legenda h2{
-    font-weight: bold;
-    font-size: 35px;
+    margin-left: 300px;
+    margin-top: 150px;
 }
 
 .legenda p {
-    margin: 20px 0 0 0;
-    width: 450px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.legenda h2{
+    font-size: 35px;
+    margin-left: 20px;
 }
 
 .legenda button{
-    background: #226E0F;
+    margin-top: 50px;
+    padding: 13px;
+    width: 320px;
+    background-color: #226E0F;
+    border-radius: 30px;
     border: none;
-    width: 200px;
-    border-radius: 15px;
-    padding: 10px;
-    padding-inline: 20px;
-    color: #DADADA;
-    font-size: 17px;
-    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    padding-inline: 20px;
 }
 
 .legenda button:hover{
@@ -44,5 +38,16 @@ main{
     box-shadow: 10px 10px 20px rgba(0, 0, 0.40, 0.40);
 }
 
-.produtos{
+.modelo img{
+    width: 670px;
+    height: 706px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
+
+.produtos h1{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 133px;
+}
+

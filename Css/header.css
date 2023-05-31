@@ -69,3 +69,34 @@ p{
     cursor: pointer;
     width: 30px;
 }
+
+.mainmenubtn {
+    margin-top:10px;
+    width: 30px;
+   
+}
+.mainmenubtn:hover {
+    background-color: #000000;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #B40A0A;
+    min-width: 200px;
+    margin-top: 320px;
+    
+}
+.dropdown-child a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
